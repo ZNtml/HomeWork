@@ -9,13 +9,18 @@ ul{
 a {
 	color: white;
 }
+nav,nav ul ,li {
+	display: inline;
+	margin: 36px 18px 37px ;
+}
+
 .crumbs {
 	margin-top: 20px;
 }
 .crumbs a {
 
 	padding: 18px 36px;
-	background: #FFFFFF;
+	background: white;
 	border-radius: 28px;
 	color: black;
 	text-decoration: none;
@@ -31,23 +36,17 @@ section{
 	opacity: 100;
 }
 .House {
-	/* width:100%; */
 	height: 600px;
 	border-radius: 15px;
 	opacity: 100;
-	padding: auto;
+	display: block;
+	margin: auto;
+
 }
-.mainContent {
-	position: relative;
-}
-.House {
-	position: absolute;
-	top: -20%;
-	left: 5%;
-}
+
 .container {
 	text-align: center;
-}
+	}
 .text {
 	text-transform: uppercase;
 	color: black;
@@ -56,4 +55,25 @@ section{
 .paragraph{
 	margin: auto;
 	width: 800px;
+	font-size: 16px;
+	text-align: left;
+}
+#add {	
+	display: inline-block;
+	background-color: blue;
+	padding: 18px 77px 18px 57px;
+	border-radius: 28px;
+	width: 207px;
+	height: 19px;
+	margin: 20px;
+}
+footer { display: inline-block;	
+	background-color: blue;
+
+
+}
+h2{
+	color: white;
+	width: 162px;
+	height: 38px;
 }
